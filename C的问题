@@ -1,0 +1,10 @@
+#include <stdio.h>
+main()
+{
+    int c;
+    while (c=getchar()!=EOF)
+        printf("%d\n,c");
+    printf("%d - at EOF \n",c);
+}
+/*这里的“- at”表示什么意思
+c=getchar的意义在哪里*/
